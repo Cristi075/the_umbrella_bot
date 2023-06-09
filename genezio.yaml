@@ -1,0 +1,13 @@
+name: the-umbrella-bot
+region: eu-central-1
+cloudProvider: aws
+sdk:
+  language: ts
+  path: ./sdk/
+classes:
+  - path: ./main.ts
+    type: jsonrpc
+    methods: 
+      - name: "main"
+        type: cron
+        cronString: "0 6 * * *"
