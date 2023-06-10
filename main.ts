@@ -59,7 +59,7 @@ export class UmbrellaBotService {
         message += `\nThe temperature is going to be between ${minTemperature}°C and ${maxTemperature}°C.\n`
         message += '\nHave a nice day!'
 
-        this.sendWebhookMessage(message);
+        await this.sendWebhookMessage(message);
     }
 
 

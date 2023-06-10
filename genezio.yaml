@@ -10,4 +10,4 @@ classes:
     methods: 
       - name: "main"
         type: cron
-        cronString: "0 6 * * *"
+        cronString: "0 4 * * *"

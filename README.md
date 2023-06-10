@@ -65,7 +65,7 @@ This tool is deployed by using [genezio](https://genez.io/).
 You must have the CLI tool installed and you have to be logged in.  
 After everything is ready, just run ``` genezio deploy```.
 
-The cronstring ("0 6 * * *") from genezio.yml makes the bot send a message at 6 AM.  
+The cronstring ("0 6 * * *") from genezio.yml makes the bot send a message at 7 AM (GMT+3).  
 You can change that by replacing the cronstring. Use [https://crontab.guru](https://crontab.guru) as a  reference.
 
 ### Local testing
